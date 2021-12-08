@@ -1,337 +1,529 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <title>SKKU Information and Communication Engineering</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico" />
 
-     <title>SKKU Information and Communication Engineering</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta
+      name="description"
+      content="SKKU Department of Information and Communication Engieering"
+    />
+    <meta
+      name="keywords"
+      content="electrical, information, communication, engineering"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
 
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-     <meta name="description" content="SKKU Department of Information and Communication Engieering">
-     <meta name="keywords" content="electrical, information, communication, engineering">
-     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/owl.carousel.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
 
-     <link rel="stylesheet" href="css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/font-awesome.min.css">
-     <link rel="stylesheet" href="css/animate.css">
-     <link rel="stylesheet" href="css/owl.carousel.css">
-     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/skkuccl-style.css" />
 
-     <!-- MAIN CSS -->
-     <link rel="stylesheet" href="css/skkuccl-style.css">
+    <style>
+      .img-custom {
+        width: 100%;
+        height: 300px;
+      }
+      .img-custom .img-responsive {
+        height: 100%;
+        max-width: 100%;
+      }
 
-</head>
-<body id="top" data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+      div.content-customer {
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body
+    id="top"
+    data-spy="scroll"
+    data-target=".navbar-collapse"
+    data-offset="50"
+  >
+    <!-- PRE LOADER -->
+    <section class="preloader">
+      <div class="spinner">
+        <span class="spinner-rotate"></span>
+      </div>
+    </section>
 
-     <!-- PRE LOADER -->
-     <section class="preloader">
-          <div class="spinner">
-
-               <span class="spinner-rotate"></span>
-               
-          </div>
-     </section>
-
-
-     <!-- HEADER -->
-     <header>
-          <div class="container">       
-               <div class="col-md-8 col-sm-7 text-align-right">
-                         <!--
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="col-md-8 col-sm-7 text-align-right">
+          <!--
                          <span class="phone-icon"><i class="fa fa-phone"></i> 010-060-0160</span>
                          <span class="date-icon"><i class="fa fa-calendar-plus-o"></i> 6:00 AM - 10:00 PM (Mon-Fri)</span>
                          <span class="email-icon"><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></span>
-                         -->  
-               </div>
-          </div>
-     </header>
+                         -->
+        </div>
+      </div>
+    </header>
 
+    <!-- MENU -->
+    <section class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+            <span class="icon icon-bar"></span>
+          </button>
 
-     <!-- MENU -->
-     <section class="navbar navbar-default navbar-static-top" role="navigation">
-          <div class="container">
+          <!-- LOGO TEXT HERE -->
 
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                    </button>
+          <!--<a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>ealth Center</a>-->
+          <link rel="shortcut icon" href="images/favicon.ico" />
+          <a href="index.html" class="navbar-brand"
+            >SKKU Communication and Networking Research Group</a
+          >
+        </div>
 
-                    <!-- LOGO TEXT HERE -->
-                    
-                    <!--<a href="index.html" class="navbar-brand"><i class="fa fa-h-square"></i>ealth Center</a>-->
-                    <link rel="shortcut icon" href="images/favicon.ico" />
-                    <a href="index.html" class="navbar-brand">SKKU Communication and Networking Research Group</a>
-               </div>
-
-               <!-- MENU LINKS -->
-               <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                         <!--
+        <!-- MENU LINKS -->
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!--
                          <li><a href="#top" class="smoothScroll">Home</a></li>
                          -->
-                         <li><a href="#about" class="smoothScroll">About Us</a></li>
-                         <li><a href="#team" class="smoothScroll">Research team</a></li>
-                         <li><a href="#news" class="smoothScroll">News and Events</a></li>
-                         <li><a href="#google-map" class="smoothScroll">Contact</a></li>
-                    </ul>
-               </div>
+            <li><a href="#about" class="smoothScroll">About Us</a></li>
+            <li><a href="#team" class="smoothScroll">Research team</a></li>
+            <li><a href="#news" class="smoothScroll">News and Events</a></li>
+            <li><a href="#google-map" class="smoothScroll">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOME -->
+    <section id="home" class="slider" data-stellar-background-ratio="0.5">
+      <div class="container">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="item item-second">
+              <div class="caption">
+                <div class="col-md-offset-1 col-md-10">
+                  <h1>
+                    Welcome to SKKU Communication and Networking Research Group
+                  </h1>
+                  <a
+                    href="#news"
+                    class="section-btn btn btn-default btn-blue smoothScroll"
+                    >Read Stories</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="item item-first">
+              <div class="caption">
+                <div class="col-md-offset-1 col-md-10">
+                  <h3>Are you awesome?</h3>
+                  <h1>WE'RE RECRUITING</h1>
+                  <a
+                    href="#news"
+                    class="section-btn btn btn-default btn-gray smoothScroll"
+                    >Contact us</a
+                  >
+                </div>
+              </div>
+            </div>
           </div>
-     </section>
+        </div>
+      </div>
+    </section>
 
-     <!-- HOME -->
-     <section id="home" class="slider" data-stellar-background-ratio="0.5">
-          <div class="container">
-               <div class="row">
-                         <div class="owl-carousel owl-theme">
-                              <div class="item item-second">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h1>Welcome to SKKU Communication and Networking Research Group</h1>
-                                             <a href="#news" class="section-btn btn btn-default btn-blue smoothScroll">Read Stories</a>
-                                        </div>
-                                   </div>
-
-
-                              <div class="item item-first">
-                                   <div class="caption">
-                                        <div class="col-md-offset-1 col-md-10">
-                                             <h3>Are you awesome?</h3>
-                                             <h1>WE'RE RECRUITING</h1>
-                                             <a href="#news" class="section-btn btn btn-default btn-gray smoothScroll">Contact us</a>
-                                        </div>
-                                   </div>
-                              </div>
-
-                         </div>
-
-               </div>
+    <!-- NEWS -->
+    <section id="news" data-stellar-background-ratio="2.5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <!-- SECTION TITLE -->
+            <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
+              <h2>Latest News</h2>
+            </div>
           </div>
-     </section>
 
-     <!-- NEWS -->
-     <section id="news" data-stellar-background-ratio="2.5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-12 col-sm-12">
-                         <!-- SECTION TITLE -->
-                         <div class="section-title wow fadeInUp" data-wow-delay="0.1s">
-                              <h2>Latest News</h2>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- NEWS THUMB -->
-                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
-                              <a href="https://ieeexplore.ieee.org/document/9601295">
-                                   <img src="images/news-image1.jpg" class="img-responsive" alt="">
-                              </a>
-                              <div class="news-info">
-                                   <span>November 13, 2021</span>
-                                   <h3><a href="news-detail.html">Neural Network aided Impulsive Perturbation Decoding for Short LDPC Codes</a></h3>
-                                   <p>As short packet communications become more important, multi-round belief propagation decoding with impulsive perturbation (MBPD-IP) was proposed to improve the decoding of short low-density parity-check (LDPC) codes.</p>
-                                   <div class="author">
-                                        <!--
+          <div class="col-md-4 col-sm-6">
+            <!-- NEWS THUMB -->
+            <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
+              <div class="img-custom">
+                <a href="https://ieeexplore.ieee.org/document/9601295">
+                  <img
+                    src="images/news-image1.jpg"
+                    class="img-responsive"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="news-info">
+                <div class="content-customer">
+                  <span>November 13, 2021</span>
+                  <h3>
+                    <a href="news-detail.html"
+                      >Neural Network aided Impulsive Perturbation Decoding for
+                      Short LDPC Codes</a
+                    >
+                  </h3>
+                </div>
+                <div class="content-customer-short">
+                  <p>In this paper, we propose a configuration ...</p>
+                  <a
+                    href="#"
+                    class="
+                      section-btn
+                      btn btn-default btn-blue
+                      smoothScroll
+                      read-more
+                    "
+                    data-id="3"
+                    >Read More</a
+                  >
+                </div>
+                <div
+                  class="content-customer-full"
+                  id="content-customer-full-3"
+                  style="display: none"
+                >
+                  <p>
+                    In this paper, we propose a configuration design scheme for
+                    the SCL decoder and a post-decoding validation check scheme
+                    in order to provide a better tradeoff between
+                    error-detection and error-correction performance.
+                  </p>
+                </div>
+                <div class="author">
+                  <!--
                                         <img src="images/author-image.jpg" class="img-responsive" alt="">
                                         -->
-                                        <div class="author-info">
-                                             <h5>Author: Hyunjae Lee, Young-Sung Kil, Min Young Chung, Sang-Hyo Kim</h5>
-                                             <p>Publisher: IEEE Wireless Communications Letters</p>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- NEWS THUMB -->
-                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.6s">
-                              <a href="https://ieeexplore.ieee.org/abstract/document/9484078">
-                                   <img src="images/news-image2.jpg" class="img-responsive" alt="">
-                              </a>
-                              <div class="news-info">
-                                   <span>July 14, 2021</span>
-                                   <h3><a href="news-detail.html">Molecular Communication with Passive Receivers in Anomalous Diffusion Channels</a></h3>
-                                   <p>We consider anomalous diffusion for molecular communication with a passive receiver. We first consider the probability density function of molecules’ location at a given time in a space of arbitrary dimension.</p>
-                                   <div class="author">
-                                        <div class="author-info">
-                                             <h5>Authors: Dung Phuong Trinh, Youngmin Jeong, Sang-Hyo Kim</h5>
-                                             <p>Publisher: IEEE Wireless Communications Letters</p>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                         <!-- NEWS THUMB -->
-                         <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
-                              <a href="https://ieeexplore.ieee.org/abstract/document/9393971">
-                                   <img src="images/news-image3.jpg" class="img-responsive" alt="">
-                              </a>
-                              <div class="news-info">
-                                   <span>April 2, 2021</span>
-                                   <h3><a href="news-detail.html">Improving the Tradeoff Between Error Correction and Detection of Concatenated Polar Codes</a></h3>
-                                   <p>In this paper, we propose a configuration design scheme for the SCL decoder and a post-decoding validation check scheme in order to provide a better tradeoff between error-detection and error-correction performance.</p>
-                                   <div class="author">
-                                        <div class="author-info">
-                                             <h5>Authors: Min Jang, Joohyun Lee, Sang-Hyo Kim, Kyeongcheol Yang</h5>
-                                             <p>Publisher: IEEE Transactions on Communications</p>
-                                        </div>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-               </div>
+                  <div class="author-info">
+                    <h5>
+                      Author: Hyunjae Lee, Young-Sung Kil, Min Young Chung,
+                      Sang-Hyo Kim
+                    </h5>
+                    <p>Publisher: IEEE Wireless Communications Letters</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-     </section>
 
-
-     <!-- TEAM -->
-     <section id="team" data-stellar-background-ratio="1">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-4 col-sm-4">
-                         <div class="about-info">
-                              <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Faculty</h2>
-                         </div>
-                    </div>
-
-                    <div class="clearfix"></div>
-
-                    <div class="col-md-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
-                              <img src="images/team-image1.jpg" class="img-responsive" alt="">
-
-                                   <div class="team-info">
-                                        <h3>Prof. Kim Sang-Hyo</h3>
-                                        <p></p>
-                                        <div class="team-contact-info">
-                                             <p><i class="fa fa-phone"></i> +82-31-299-4586</p>
-                                             <p><i class="fa fa-envelope-o"></i> <a href="#">iamshkim@skku.edu</a></p>
-                                        </div>
-                                        <ul class="social-icon">
-                                             <li><a href="#" class="fa fa-linkedin-square"></a></li>
-                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                        </ul>
-                                   </div>
-
-                         </div>
-                    </div>
-
-                    <div class="col-md-6">
-                         <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
-                              <img src="images/team-image2.jpg" class="img-responsive" alt="">
-
-                                   <div class="team-info">
-                                        <h3>Kim Yong-Sang</h3>
-                                        <p></p>
-                                        <div class="team-contact-info">
-                                             <p><i class="fa fa-phone"></i> +82-31-299-4323</p>
-                                             <p><i class="fa fa-envelope-o"></i> <a href="#">yongsang@skku.edu</a></p>
-                                        </div>
-                                        <ul class="social-icon">
-                                             <li><a href="#" class="fa fa-facebook-square"></a></li>
-                                             <li><a href="#" class="fa fa-envelope-o"></a></li>
-                                             <li><a href="#" class="fa fa-flickr"></a></li>
-                                        </ul>
-                                   </div>
-
-                         </div>
-                    </div>
-                    
-               </div>
+          <div class="col-md-4 col-sm-6">
+            <!-- NEWS THUMB -->
+            <div class="news-thumb wow fadeInUp" data-wow-delay="0.6s">
+              <div class="img-custom">
+                <a href="https://ieeexplore.ieee.org/abstract/document/9484078">
+                  <img
+                    src="images/news-image2.jpg"
+                    class="img-responsive"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="news-info">
+                <div class="content-customer">
+                  <span>July 14, 2021</span>
+                  <h3>
+                    <a href="news-detail.html"
+                      >Molecular Communication with Passive Receivers in
+                      Anomalous Diffusion Channels</a
+                    >
+                  </h3>
+                </div>
+                <div class="content-customer-short">
+                  <p>In this paper, we propose a configuration ...</p>
+                  <a
+                    href="#"
+                    class="
+                      section-btn
+                      btn btn-default btn-blue
+                      smoothScroll
+                      read-more
+                    "
+                    data-id="2"
+                    >Read More</a
+                  >
+                </div>
+                <div
+                  class="content-customer-full"
+                  id="content-customer-full-2"
+                  style="display: none"
+                >
+                  <p>
+                    In this paper, we propose a configuration design scheme for
+                    the SCL decoder and a post-decoding validation check scheme
+                    in order to provide a better tradeoff between
+                    error-detection and error-correction performance.
+                  </p>
+                </div>
+                <div class="author">
+                  <div class="author-info">
+                    <h5>
+                      Authors: Dung Phuong Trinh, Youngmin Jeong, Sang-Hyo Kim
+                    </h5>
+                    <p>Publisher: IEEE Wireless Communications Letters</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-     </section>
 
+          <div class="col-md-4 col-sm-6">
+            <!-- NEWS THUMB -->
+            <div class="news-thumb wow fadeInUp" data-wow-delay="0.8s">
+              <div class="img-custom">
+                <a href="https://ieeexplore.ieee.org/abstract/document/9393971">
+                  <img
+                    src="images/news-image3.jpg"
+                    class="img-responsive"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="news-info">
+                <div class="content-customer">
+                  <span>April 2, 2021</span>
+                  <h3>
+                    <a href="news-detail.html"
+                      >Improving the Tradeoff Between Error Correction and
+                      Detection of Concatenated Polar Codes</a
+                    >
+                  </h3>
+                </div>
+                <div class="content-customer-short">
+                  <p>In this paper, we propose a configuration ...</p>
+                  <a
+                    href="#"
+                    class="
+                      section-btn
+                      btn btn-default btn-blue
+                      smoothScroll
+                      read-more
+                    "
+                    data-id="1"
+                    >Read More</a
+                  >
+                </div>
+                <div
+                  class="content-customer-full"
+                  id="content-customer-full-1"
+                  style="display: none"
+                >
+                  <p>
+                    In this paper, we propose a configuration design scheme for
+                    the SCL decoder and a post-decoding validation check scheme
+                    in order to provide a better tradeoff between
+                    error-detection and error-correction performance.
+                  </p>
+                </div>
+                <div class="author">
+                  <div class="author-info">
+                    <h5>
+                      Authors: Min Jang, Joohyun Lee, Sang-Hyo Kim, Kyeongcheol
+                      Yang
+                    </h5>
+                    <p>Publisher: IEEE Transactions on Communications</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-     <!-- GOOGLE MAP -->
-     <section id="google-map">
-     <!-- How to change your own map point
+    <!-- TEAM -->
+    <section id="team" data-stellar-background-ratio="1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="about-info">
+              <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Faculty</h2>
+            </div>
+          </div>
+
+          <div class="clearfix"></div>
+
+          <div class="col-md-6">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+              <img src="images/team-image1.jpg" class="img-responsive" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+              <div class="team-info">
+                <h3>LAB INFO HERE</h3>
+                <p></p>
+                <div class="team-contact-info">
+                  <p><i class="fa fa-phone"></i> +82-31-299-4323</p>
+                  <p>
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="#">yongsang@skku.edu</a>
+                  </p>
+                </div>
+                <ul class="social-icon">
+                  <li><a href="#" class="fa fa-facebook-square"></a></li>
+                  <li><a href="#" class="fa fa-envelope-o"></a></li>
+                  <li><a href="#" class="fa fa-flickr"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="margin-top: 20px">
+          <div class="col-md-6">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.2s">
+              <img src="images/team-image1.jpg" class="img-responsive" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+              <div class="team-info">
+                <h3>LAB INFO HERE</h3>
+                <p></p>
+                <div class="team-contact-info">
+                  <p><i class="fa fa-phone"></i> +82-31-299-4323</p>
+                  <p>
+                    <i class="fa fa-envelope-o"></i>
+                    <a href="#">yongsang@skku.edu</a>
+                  </p>
+                </div>
+                <ul class="social-icon">
+                  <li><a href="#" class="fa fa-facebook-square"></a></li>
+                  <li><a href="#" class="fa fa-envelope-o"></a></li>
+                  <li><a href="#" class="fa fa-flickr"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GOOGLE MAP -->
+    <section id="google-map">
+      <!-- How to change your own map point
             1. Go to Google Maps
             2. Click on your location point
             3. Click "Share" and choose "Embed map" tab
             4. Copy only URL and paste it within the src="" field below
 	-->
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12696.22518812787!2d126.96485259999997!3d37.29379955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b42b61a4813b3%3A0x7570f73abf466018!2sSungkyunkwan%20University%20Samsung%20Library!5e0!3m2!1sen!2skr!4v1638927090186!5m2!1sen!2skr" width="1150" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-     </section>           
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12696.22518812787!2d126.96485259999997!3d37.29379955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b42b61a4813b3%3A0x7570f73abf466018!2sSungkyunkwan%20University%20Samsung%20Library!5e0!3m2!1sen!2skr!4v1638927090186!5m2!1sen!2skr"
+        width="1150"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
 
+    <!-- FOOTER -->
+    <footer data-stellar-background-ratio="5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-6">
+            <div class="footer-thumb">
+              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
+              <p>
+                Communication and Coding Theory Lab.(23532) Engineering Building
+                #1 <br />Sungkyunkwan University, 2066 Seobu-ro Jangan-gu Suwon
+                440-746, Republic of Korea.
+              </p>
 
-     <!-- FOOTER -->
-     <footer data-stellar-background-ratio="5">
-          <div class="container">
-               <div class="row">
-
-                    <div class="col-md-6 col-sm-6">
-                         <div class="footer-thumb"> 
-                              <h4 class="wow fadeInUp" data-wow-delay="0.4s">Contact Info</h4>
-                              <p>Communication and Coding Theory Lab.(23532) Engineering Building #1
-                                   <br>Sungkyunkwan University, 2066 Seobu-ro Jangan-gu Suwon 440-746, Republic of Korea.
-                              </p>
-
-                              <div class="contact-info">
-                                   <p><i class="fa fa-phone"></i> (+82)-31-299-4661</p>
-                                   <!--
+              <div class="contact-info">
+                <p><i class="fa fa-phone"></i> (+82)-31-299-4661</p>
+                <!--
                                    <p><i class="fa fa-envelope-o"></i> <a href="#">info@company.com</a></p>
                                    -->
-                              </div>
-                         </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6"> 
-                         <div class="footer-thumb">
-                              <div class="opening-hours">
-                                   <h4 class="wow fadeInUp" data-wow-delay="0.4s">Opening Hours</h4>
-                                   <p>Monday - Sunday <span>09:00 AM - 6:00 PM</span></p>
-                              </div> 
-
-                              <ul class="social-icon">
-                                   <li><a href="#" class="fa fa-facebook-square" attr="facebook icon"></a></li>
-                                   <li><a href="#" class="fa fa-twitter"></a></li>
-                                   <li><a href="#" class="fa fa-instagram"></a></li>
-                              </ul>
-                         </div>
-                    </div>
-
-                    <div class="col-md-12 col-sm-12 border-top">
-                         <div class="col-md-4 col-sm-6">
-                              <div class="copyright-text"> 
-                                   <p>Copyright &copy; 2021 SKKU
-                                   
-                                   <a rel="nofollow" href="https://skb.skku.edu/eng_ice/index.do" target="_parent">College of Information and Communication Engineering</a></p>
-                              </div>
-                         </div>
-                         <div class="col-md-6 col-sm-6">
-                              <div class="footer-link"> 
-                                   <a href="#">Research</a>
-                                   <a href="#">Programs</a>
-                                   <a href="#">Conferences</a>
-                                   <a href="#">Careers</a>
-                              </div>
-                         </div>
-                         <div class="col-md-2 col-sm-2 text-align-center">
-                              <div class="angle-up-btn"> 
-                                  <a href="#top" class="smoothScroll wow fadeInUp" data-wow-delay="1.2s"><i class="fa fa-angle-up"></i></a>
-                              </div>
-                         </div>   
-                    </div>
-                    
-               </div>
+              </div>
+            </div>
           </div>
-     </footer>
 
-     <!-- SCRIPTS -->
-     <script src="js/jquery.js"></script>
-     <script src="js/bootstrap.min.js"></script>
-     <script src="js/jquery.sticky.js"></script>
-     <script src="js/jquery.stellar.min.js"></script>
-     <script src="js/wow.min.js"></script>
-     <script src="js/smoothscroll.js"></script>
-     <script src="js/owl.carousel.min.js"></script>
-     <script src="js/custom.js"></script>
+          <div class="col-md-6 col-sm-6">
+            <div class="footer-thumb">
+              <div class="opening-hours">
+                <h4 class="wow fadeInUp" data-wow-delay="0.4s">
+                  Opening Hours
+                </h4>
+                <p>Monday - Sunday <span>09:00 AM - 6:00 PM</span></p>
+              </div>
 
-</body>
+              <ul class="social-icon">
+                <li>
+                  <a
+                    href="#"
+                    class="fa fa-facebook-square"
+                    attr="facebook icon"
+                  ></a>
+                </li>
+                <li><a href="#" class="fa fa-twitter"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-12 col-sm-12 border-top">
+            <div class="col-md-4 col-sm-6">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2021 SKKU
+
+                  <a
+                    rel="nofollow"
+                    href="https://skb.skku.edu/eng_ice/index.do"
+                    target="_parent"
+                    >College of Information and Communication Engineering</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6">
+              <div class="footer-link">
+                <a href="#">Research</a>
+                <a href="#">Programs</a>
+                <a href="#">Conferences</a>
+                <a href="#">Careers</a>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-2 text-align-center">
+              <div class="angle-up-btn">
+                <a
+                  href="#top"
+                  class="smoothScroll wow fadeInUp"
+                  data-wow-delay="1.2s"
+                  ><i class="fa fa-angle-up"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
